@@ -52,48 +52,6 @@ h1:after {
   }
 }
 
-h2 {
-  margin-bottom: 0 !important;
-}
-
-.line-wrapper {
-  margin-bottom: $spacer-sm;
-  @media only screen and (min-width: 992px) {
-    margin-bottom: $spacer-lg;
-  }
-
-  .line-container {
-    float: right;
-    height: 5px;
-    width: 118px;
-    display: none;
-
-    @media only screen and (min-width: 600px) {
-      margin-right: 2.5rem;
-      display: block;
-    }
-
-    @media only screen and (min-width: 768px) {
-      margin-right: 4rem;
-      display: block;
-    }
-
-    @media only screen and (min-width: 992px) {
-      margin-right: $spacer-sm;
-      display: block;
-    }
-  }
-
-  .growing-underline-on-load {
-    animation: president 4s forwards;
-
-    @keyframes president {
-      from { width: 0; }
-      to { width: 118px; }
-    }
-  }
-}
-
 .body-text {
   background-color: white;
   padding: $spacer-lg;
