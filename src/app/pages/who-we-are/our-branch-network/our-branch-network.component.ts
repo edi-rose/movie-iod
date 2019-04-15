@@ -15,8 +15,17 @@ export class OurBranchNetworkComponent implements OnInit {
     }, 1000);
 
     setTimeout(function(){
-        document.getElementById("twohundred").innerHTML = '200';
+        document.getElementById("twofifteen").innerHTML = '215';
     }, 1000);
+
+    setTimeout(function(){
+        document.getElementById("ninethousand").innerHTML = '9071';
+    }, 1000);
+
+    setTimeout(function(){
+        document.getElementById("sixtyfive").innerHTML = '65';
+    }, 1000);
+
 
   }
 

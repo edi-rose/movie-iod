@@ -42,12 +42,12 @@ h2,
 .nav-title {
   font-family: 'IodSansBold', sans-serif;
   text-transform: uppercase;
-  font-size: $font-size-x-small;
+  font-size: 10px;
 }
 
 .nav-subtitle {
   font-family: 'IodSansBold';
-  font-size: $font-size-x-small;
+  font-size: 1em;
   color: white;
   text-transform: none;
   & li:hover {

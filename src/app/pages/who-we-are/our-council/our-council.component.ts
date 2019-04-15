@@ -12,59 +12,59 @@ export class OurCouncilComponent implements OnInit {
     { fullname: 'Liz Coutts',
       role: 'President',
       credentials: 'ONZM, CFInstD',
-      img: '/../../../assets/2_Our council/Liz-Coutts.svg'
+      img: '/../../../assets/2_Our council/Liz-Coutts.png'
     },
-    { fullname: 'maia miller',
+    { fullname: 'Alan Isaac',
       role: 'Vice President',
-      credentials: 'the best',
-      img: '/../../../assets/2_Our council/Alan-Isaac.svg'
+      credentials: 'CNZM, CFInstD',
+      img: '/../../../assets/2_Our council/Alan-Isaac.png'
     }
   ]
   councillors = [
-    { fullname: 'fullname',
+    { fullname: 'Dr Helen Anderson',
       role: '',
-      credentials: 'credentials',
-      img: 'http://www.placepuppy.net/400/250'
+      credentials: 'QSO, CFInstD',
+      img: '/../../../assets/2_Our council/Helen-Anderson.png'
     },
-    { fullname: 'fullname',
+    { fullname: 'Des Hammond',
       role: '',
-      credentials: 'credentials',
-      img: 'http://www.placepuppy.net/400/250'
+      credentials: 'CFInstD',
+      img: '/../../../assets/2_Our council/Des-Hammond.png'
     },
-    { fullname: 'fullname',
+    { fullname: 'Julia Hoare',
       role: '',
-      credentials: 'credentials',
-      img: 'http://www.placepuppy.net/400/250'
+      credentials: 'CMInstD',
+      img: '/../../../assets/2_Our council/Julia-Hoare.png'
     },
-    { fullname: 'fullname',
+    { fullname: 'Jackie Lloyd',
       role: '',
-      credentials: 'credentials',
-      img: 'http://www.placepuppy.net/400/250'
+      credentials: 'CMInstD',
+      img: '/../../../assets/2_Our council/Jackie-Lloyd.png'
     },
-    { fullname: 'fullname',
+    { fullname: 'Simon Lockwood',
       role: '',
-      credentials: 'credentials',
-      img: 'http://www.placepuppy.net/400/250'
+      credentials: 'CMInstD',
+      img: '/../../../assets/2_Our council/Simon-Lockwood.png'
     },
-    { fullname: 'fullname',
+    { fullname: 'Vincent Pooch',
       role: '',
-      credentials: 'credentials',
-      img: 'http://www.placepuppy.net/400/250'
+      credentials: 'CFInstD',
+      img: '/../../../assets/2_Our council/Vincent-Pooch.png'
     },
-    { fullname: 'fullname',
+    { fullname: 'Geoff Thomas',
       role: '',
-      credentials: 'credentials',
-      img: 'http://www.placepuppy.net/400/250'
+      credentials: 'CFInstD',
+      img: '/../../../assets/2_Our council/Geoff-Thomas.png'
     },
-    { fullname: 'fullname',
+    { fullname: 'Clayton Wakefield',
       role: '',
-      credentials: 'credentials',
-      img: 'http://www.placepuppy.net/400/250'
+      credentials: 'CMInstD',
+      img: '/../../../assets/2_Our council/Clayton-Wakefield.png'
     },
-    { fullname: 'fullname',
+    { fullname: 'Sarah-Jane Weir',
       role: '',
-      credentials: 'credentials',
-      img: 'http://www.placepuppy.net/400/250'
+      credentials: 'CMInstD',
+      img: '/../../../assets/2_Our council/Sarah-Jane.png'
     }
   ]
 
