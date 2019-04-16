@@ -122,6 +122,14 @@ export class SnapshotOfOurYearComponent implements OnInit {
       description: '(23 in 2017)'
     },
     {
+      col: 'col-md-6',
+      blockSize: 'twoxone',
+      statNumber: '1,306',
+      statText: 'attendees at our annual leadership conference ',
+      statUp: 'statUp',
+      description: '(new measure since 2017)'
+    },
+    {
       col: 'col-md-3',
       blockSize: 'onexone',
       statNumber: '3.7%',

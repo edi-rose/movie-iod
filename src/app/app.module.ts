@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { Ng2OdometerModule } from 'ng2-odometer';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -60,7 +61,8 @@ import { StatBlockComponent } from './pages/our-year/snapshot-of-our-year/stat-b
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    Ng2OdometerModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

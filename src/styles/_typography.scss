@@ -59,9 +59,16 @@ h2,
 }
 
 .body-title {
+  padding-top: 12px;
   font-family: 'IodSansBold', sans-serif;
   font-size: inherit;
 }
+
+.body-title-nsp {
+  font-family: 'IodSansBold', sans-serif;
+  font-size: inherit;
+}
+
 
 .small-body-text {
   font-family: 'IodSansLight', sans-serif;
@@ -76,6 +83,10 @@ h2,
   text-align: center;
 }
 
+.faces-underline {
+  border-bottom: 3px solid $brand-blue;
+}
+
 .long-underline {
   border-bottom: 1px solid $brand-blue;
 }
@@ -88,10 +99,9 @@ h2,
 
 /* Graph fonts */
 .graph-title {
-  font-family: 'IodSerifMed', serif;
+  font-family: 'IodSerifMed', serif !important;
   font-size: $font-size-2x-large;
 }
-
 .graph-text {
   font-family: 'IodSans', sans-serif;
 }

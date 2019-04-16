@@ -5,6 +5,7 @@
   background-size: cover;
   min-height: 325px;
   margin-bottom: $spacer-sm !important;
+  padding: 20px;
 
   h2 {
     margin-bottom: $spacer-sm;
@@ -35,7 +36,7 @@
 }
 
 .grey-box-right {
-  background-image: url('/../assets/2_Our council/Our-council_greybox.svg');
+  background-image: url('/../assets/10_Inspire and Equip/greybox-right.svg');
 }
 
 .blue-box-right {
@@ -43,5 +44,5 @@
 }
 
 .blue-box-left {
-  background-image: url('/../assets/2_Our council/Our-council_bluebox.svg');
+  background-image: url('/../assets/10_Inspire and Equip/bluebox-left.svg');
 }

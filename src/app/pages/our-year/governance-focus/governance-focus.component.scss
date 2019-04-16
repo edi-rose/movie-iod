@@ -4,20 +4,20 @@
   animation: engagement 4s forwards;
   @keyframes engagement {
     from { width: 0; }
-    to { width: 310px; }
+    to { width: 295px; }
   }
 
   @media only screen and (min-width: 600px) {
     @keyframes engagement {
       from { width: 0; }
-      to { width: 480px; }
+      to { width: 295px; }
     }
   }
 
   @media only screen and (min-width: 768px) {
     @keyframes engagement {
       from { width: 0; }
-      to { width: 580px; }
+      to { width: 295px; }
     }
   }
 }

@@ -4,7 +4,7 @@
   animation: snapshot 4s forwards;
   @keyframes snapshot {
     from { width: 0; }
-    to { width: 365px; }
+    to { width: 345px; }
   }
 }
 
@@ -45,15 +45,15 @@ h3 {
 
       .dollar {
         vertical-align: top;
-        font-size: $font-size-large;
+        font-size: 2em;
       }
 
       .figure {
-        font-size: $font-size-2x-large
+        font-size: 3em;
       }
 
       .million {
-        font-size: $font-size-large;
+        font-size: 1.5em;
       }
 
       &::after {
