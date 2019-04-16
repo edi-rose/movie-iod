@@ -5,7 +5,7 @@
   <div class="col-md-6 pl-0">
     <p>Our membership has grown to</p>
     <!-- this number is the starting point for the odometer. The final number is set in the .ts file -->
-    <p class="title blue ticker-number mb-0 odometer" id="odometer">0</p>
+     <ng2-odometer class="title blue ticker-number mb-0" [number]="9071" [config]="{ }"></ng2-odometer>
     <p class="ticker-subtitle">up <span class="graph-number blue" role="presentation">4.4%</span> from the previous year</p>
   </div>
   <div class="col-md-6 d-inline-block">
