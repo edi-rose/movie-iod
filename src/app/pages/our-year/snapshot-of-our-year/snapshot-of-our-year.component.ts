@@ -14,7 +14,7 @@ export class SnapshotOfOurYearComponent implements OnInit {
       blockSize: 'onexone',
       statNumber: 17,
       statText: 'submissions to Government',
-      statChange: '(8 in 2017).',
+      statChange: '(8 in 2017)',
       description: 'We made submissions on a wide range of governance issues.'
     },
     {
@@ -78,7 +78,7 @@ export class SnapshotOfOurYearComponent implements OnInit {
       col: 'col-md-6',
       blockSize: 'twoxone upside-down',
       statNumber: 20,
-      statText: 'mentees selected from 76 applicants for Mentoring for Diversity',
+      statText: 'mentees selected from 76 applicants for Mentoring for Diversity.',
       description: '(24 in 2017)',
       statChangeClass: 'leftAlignedStatChange',
       statDown: 'statDown'
