@@ -59,7 +59,7 @@ export class SnapshotOfOurYearComponent implements OnInit {
       statTextTwo: 'webcasts accessed by',
       secondStatNumber: '1,618',
       statText:'people',
-      statChange: '(0 in 2017)',
+      statChange: '(new initiative)',
       description: 'We developed a series of webcasts based around the three "What Matters" themes: Stakeholder Engagement, Culture and Ethics, and A World of Data.'
     }
   ];
@@ -114,24 +114,16 @@ export class SnapshotOfOurYearComponent implements OnInit {
   ]
     buildEngagementStatsSecondRow = [
     {
-      col: 'col-md-3',
-      blockSize: 'onexone',
+      col: 'col-md-6 h-80',
+      blockSize: 'twoxone',
       statNumber: 26,
       statText: 'assignments for DirectorSearch',
       statUp: 'statUp',
       description: '(23 in 2017)'
     },
     {
-      col: 'col-md-6',
+      col: 'col-md-6 h-80',
       blockSize: 'twoxone',
-      statNumber: '1,306',
-      statText: 'attendees at our annual leadership conference ',
-      statUp: 'statUp',
-      description: '(new measure since 2017)'
-    },
-    {
-      col: 'col-md-3',
-      blockSize: 'onexone',
       statNumber: '3.7%',
       statUp: 'statUp',
       description: 'more Director Vacancies placed'
