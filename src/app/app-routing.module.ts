@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { HomepageComponent } from './components/homepage/homepage.component';
-import { CommitteesComponent } from './pages/who-we-are/committees/committees.component';
+import { SubCommitteesComponent } from './pages/who-we-are/subcommittees/subcommittees.component';
 import { OurBranchNetworkComponent } from './pages/who-we-are/our-branch-network/our-branch-network.component';
 import { OurCouncilComponent } from './pages/who-we-are/our-council/our-council.component';
 import { OurMembersComponent } from './pages/who-we-are/our-members/our-members.component';
@@ -26,7 +26,7 @@ import { WarwickTauwhareGeorgeComponent } from './pages/faces-of-governance/warw
 
 const routes: Routes = [
   { path: 'home', component: HomepageComponent },
-  { path: 'committees', component: CommitteesComponent },
+  { path: 'subcommittees', component: SubCommitteesComponent },
   { path: 'our-branch-network', component: OurBranchNetworkComponent },
   { path: 'our-council', component: OurCouncilComponent },
   { path: 'our-members', component: OurMembersComponent },

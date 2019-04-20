@@ -1,7 +1,0 @@
-.growing-underline-on-load {
-  animation: committees 4s forwards;
-  @keyframes committees {
-    from { width: 0; }
-    to { width: 200px; }
-  }
-}

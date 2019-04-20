@@ -1,0 +1,7 @@
+.growing-underline-on-load {
+  animation: subcommittees 4s forwards;
+  @keyframes subcommittees {
+    from { width: 0; }
+    to { width: 279px; }
+  }
+}

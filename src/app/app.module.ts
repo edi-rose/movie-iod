@@ -11,7 +11,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { FromThePresidentComponent } from './pages/from-the-president/from-the-president.component';
 import { OurMembersComponent } from './pages/who-we-are/our-members/our-members.component';
 import { OurBranchNetworkComponent } from './pages/who-we-are/our-branch-network/our-branch-network.component';
-import { CommitteesComponent } from './pages/who-we-are/committees/committees.component';
+import { SubCommitteesComponent } from './pages/who-we-are/subcommittees/subcommittees.component';
 import { FromTheCeoComponent } from './pages/from-the-ceo/from-the-ceo.component';
 import { SnapshotOfOurYearComponent } from './pages/our-year/snapshot-of-our-year/snapshot-of-our-year.component';
 import { ThoughtLeadershipComponent } from './pages/our-year/thought-leadership/thought-leadership.component';
@@ -40,7 +40,7 @@ import { StatBlockComponent } from './pages/our-year/snapshot-of-our-year/stat-b
     FromThePresidentComponent,
     OurMembersComponent,
     OurBranchNetworkComponent,
-    CommitteesComponent,
+    SubCommitteesComponent,
     FromTheCeoComponent,
     SnapshotOfOurYearComponent,
     ThoughtLeadershipComponent,
