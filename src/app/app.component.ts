@@ -19,8 +19,8 @@ export class AppComponent {
       case '/home':
         return backgroundImageClass = 'backgroundImage homeBackgroundImage';
         break;
-      case '/subcommittees':
-        return backgroundImageClass = 'backgroundImage subCommitteesBackgroundImage';
+      case '/committees':
+        return backgroundImageClass = 'backgroundImage committeesBackgroundImage';
         break;
       case '/our-members':
         return backgroundImageClass = 'backgroundImage membersBackgroundImage';

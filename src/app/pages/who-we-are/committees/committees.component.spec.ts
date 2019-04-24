@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SubCommitteesComponent } from './subcommittees.component';
+import { CommitteesComponent } from './committees.component';
 
-describe('SubCommitteesComponent', () => {
-  let component: SubCommitteesComponent;
-  let fixture: ComponentFixture<SubCommitteesComponent>;
+describe('CommitteesComponent', () => {
+  let component: CommitteesComponent;
+  let fixture: ComponentFixture<CommitteesComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SubCommitteesComponent ]
+      declarations: [ CommitteesComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SubCommitteesComponent);
+    fixture = TestBed.createComponent(CommitteesComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
