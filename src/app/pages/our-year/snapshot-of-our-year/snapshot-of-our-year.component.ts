@@ -60,7 +60,7 @@ export class SnapshotOfOurYearComponent implements OnInit {
       secondStatNumber: '1,618',
       statText:'people',
       statChange: '(new initiative)',
-      description: 'We developed a series of webcasts based around the three "What Matters" themes: Stakeholder Engagement, Culture and Ethics, and A World of Data.'
+      description: 'We developed a series of webcasts based around the three 𝘞𝘩𝘢𝘵 𝘔𝘢𝘵𝘵𝘦𝘳𝘴 themes: Stakeholder Engagement, Culture and Ethics, and A World of Data.'
     }
   ];
 
