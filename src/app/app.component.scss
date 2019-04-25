@@ -36,7 +36,17 @@
 
 .snapshotBackgroundImage {
   background-image: url('/../assets/7_snapshot/snapshot_background-image.png');
-  background-position: bottom;
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 100%;
 }
 
 .raisingStandardsBackgroundImage {
