@@ -52,7 +52,6 @@
     height: 1px;
     display: block;
     background-color: white;
-    margin: 5px 0 10px 0;
   }
 
   .top-half-text {
@@ -82,6 +81,8 @@ i {
 }
 
 .bottomhalf {
+  padding-left: 7%;
+  padding-right: 7%;
   align-items: baseline;
   display: inline-flex;
   justify-content: center;

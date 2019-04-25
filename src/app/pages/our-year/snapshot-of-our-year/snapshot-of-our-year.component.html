@@ -3,34 +3,47 @@
 <div class="growing-underline-on-load"></div>
 <div class="row header-row">
   <div class="block-subtitle blue col-6 pl-0 d-flex align-items-center">
-    <p>Good governance is crucial to building a strong and vibrant New&nbsp;Zealand. The IoD is committed to improving governance best-practice and to providing our memers with tools and information that will help them succeed in their roles. Some of our key achievements for 2018 include:</p>
+    <p>
+      Good governance is crucial to building a strong and vibrant
+      New&nbsp;Zealand. The IoD is committed to improving governance
+      best-practice and to providing our memers with tools and information that
+      will help them succeed in their roles. Some of our key achievements for
+      2018 include:
+    </p>
   </div>
   <div class="stat-block col-6">
     <div class="row header-stat white">
       <div class="col-4 pr-0 header-number">
-        <p class="number title">
+        <b class="number title">
           <span class="dollar">$</span>
           <span class="figure" style="padding-bottom:3px;">0.6</span><br />
-          <span class="million">million</span></p>
-        </div>
-        <div class="col-8 pl-0 d-flex align-items-center">
-          <p>Our surplus of $0.6m before income tax expense puts us in a strong position for the coming year as we complete our digital transformation project.</p>
-        </div>
+          <span class="million">million</span></b
+        >
       </div>
+      <div class="col-8 pl-0 d-flex align-items-center">
+        <b
+          >Our surplus of $0.6m before income tax expense puts us in a strong
+          position for the coming year as we complete our digital transformation
+          project.</b
+        >
+      </div>
+    </div>
   </div>
 </div>
 
 <div>
-  <h3 class="block-subtitle blue long-underline">Thought leadership and influence</h3>
+  <h3 class="block-subtitle blue long-underline">
+    Thought leadership and influence
+  </h3>
   <div class="row">
     <div *ngFor="let stat of thoughtLeadershipStats" class="{{ stat.col }}">
       <div class="stat-container">
         <app-stat-block
-        statClass="{{ stat.blockSize }}"
-        statNumber="{{ stat.statNumber }}"
-        statText="{{ stat.statText }}"
-        statChange="{{ stat.statChange }}"
-        description="{{ stat.description }}"
+          statClass="{{ stat.blockSize }}"
+          statNumber="{{ stat.statNumber }}"
+          statText="{{ stat.statText }}"
+          statChange="{{ stat.statChange }}"
+          description="{{ stat.description }}"
         ></app-stat-block>
       </div>
     </div>
@@ -43,13 +56,13 @@
     <div *ngFor="let stat of raisingStandardsStats" class="{{ stat.col }}">
       <div class="stat-container">
         <app-stat-block
-        statClass="{{ stat.blockSize}}"
-        statNumber="{{ stat.statNumber }}"
-        statText="{{ stat.statText }}"
-        statChange="{{ stat.statChange }}"
-        description="{{ stat.description }}"
-        statTextTwo="{{ stat.statTextTwo }}"
-        secondStatNumber="{{ stat.secondStatNumber }}"
+          statClass="{{ stat.blockSize }}"
+          statNumber="{{ stat.statNumber }}"
+          statText="{{ stat.statText }}"
+          statChange="{{ stat.statChange }}"
+          description="{{ stat.description }}"
+          statTextTwo="{{ stat.statTextTwo }}"
+          secondStatNumber="{{ stat.secondStatNumber }}"
         ></app-stat-block>
       </div>
     </div>
@@ -62,13 +75,13 @@
     <div *ngFor="let stat of inspireStats" class="{{ stat.col }}">
       <div class="stat-container">
         <app-stat-block
-        statClass="{{ stat.blockSize}}"
-        statNumber="{{ stat.statNumber }}"
-        statText="{{ stat.statText }}"
-        statChange="{{ stat.statChange }}"
-        statChangeClass="{{ stat.statChangeClass }}"
-        description="{{ stat.description }}"
-        statDown="{{ stat.statDown }}"
+          statClass="{{ stat.blockSize }}"
+          statNumber="{{ stat.statNumber }}"
+          statText="{{ stat.statText }}"
+          statChange="{{ stat.statChange }}"
+          statChangeClass="{{ stat.statChangeClass }}"
+          description="{{ stat.description }}"
+          statDown="{{ stat.statDown }}"
         ></app-stat-block>
       </div>
     </div>
@@ -76,35 +89,43 @@
 </div>
 
 <div>
-  <h3 class="block-subtitle blue long-underline">Build engagement across governance network</h3>
+  <h3 class="block-subtitle blue long-underline">
+    Build engagement across governance network
+  </h3>
   <div class="row">
-    <div *ngFor="let stat of buildEngagementStatsFirstRow" class="{{ stat.col }}">
+    <div
+      *ngFor="let stat of buildEngagementStatsFirstRow"
+      class="{{ stat.col }}"
+    >
       <div class="stat-container">
         <app-stat-block
-        statClass="{{ stat.blockSize}}"
-        statNumber="{{ stat.statNumber }}"
-        statText="{{ stat.statText }}"
-        statChange="{{ stat.statChange }}"
-        description="{{ stat.description }}"
-        statUp="{{ stat.statUp }}"
-        descriptionUp="{{ stat.descriptionUp }}"
+          statClass="{{ stat.blockSize }}"
+          statNumber="{{ stat.statNumber }}"
+          statText="{{ stat.statText }}"
+          statChange="{{ stat.statChange }}"
+          description="{{ stat.description }}"
+          statUp="{{ stat.statUp }}"
+          descriptionUp="{{ stat.descriptionUp }}"
         ></app-stat-block>
       </div>
     </div>
   </div>
   <div class="row justify-content-end">
-    <div *ngFor="let stat of buildEngagementStatsSecondRow" class="{{ stat.col }}">
+    <div
+      *ngFor="let stat of buildEngagementStatsSecondRow"
+      class="{{ stat.col }}"
+    >
       <div class="stat-container">
         <app-stat-block
-        statClass="{{ stat.blockSize}}"
-        statNumber="{{ stat.statNumber }}"
-        statText="{{ stat.statText }}"
-        statChange="{{ stat.statChange }}"
-        description="{{ stat.description }}"
-        statUp="{{ stat.statUp }}"
+          statClass="{{ stat.blockSize }}"
+          statNumber="{{ stat.statNumber }}"
+          statText="{{ stat.statText }}"
+          statChange="{{ stat.statChange }}"
+          description="{{ stat.description }}"
+          statUp="{{ stat.statUp }}"
         ></app-stat-block>
       </div>
     </div>
   </div>
 </div>
-<div style=padding-bottom:50px;></div>
+<div style="padding-bottom:50px;"></div>

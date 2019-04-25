@@ -8,13 +8,13 @@
           <p class="body-title mb-0 d-inline-block statTextTwo">{{ statTextTwo }}</p>
         </div>
         <ng-template #regularStat>
-          <p class="number title">{{ statNumber }}</p>
+          <b class="number title">{{ statNumber }}</b>
         </ng-template>
 
         <div *ngIf='statChangeClass; else regularStatDeets' class="text-left w-75">
           <div class="d-inline-block body-title">
             <p class="mb-0">{{ statText }}</p>
-            <div *ngIf='statChange' class="{{ statChangeClass }}">
+            <div *ngIf="statChange" class="{{ statChangeClass }}">
               <i class="fas fa-caret-up fa-2x light-blue"></i>
               <p class="stat-change mb-1">{{ statChange }}</p>
             </div>
@@ -22,7 +22,7 @@
         </div>
         <ng-template #regularStatDeets>
           <div>
-            <p class="number title d-inline-block">{{ secondStatNumber }}</p>
+            <b class="number title d-inline-block">{{ secondStatNumber }}</b>
           </div>
           <div class="d-inline-block body-title">
             <p class="mb-0">{{ statText }}</p>
