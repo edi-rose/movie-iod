@@ -2,7 +2,52 @@
   <i class="fas fa-align-justify fa-lg"></i>
   <button (click)="toggleMenu()">Menu</button>
   <div *ngIf="isMenuExpanded">
-    <app-navigation-links></app-navigation-links>
+    <ul class="navbar-nav justify-content-between">
+      <li (click)="toggleWhoAreWe()" [ngClass]="isTabDark()" class="dropdown hover-underline nav-title"><span class="down-arrow">Who We Are</span>
+        <ul *ngIf="ShowWhoAreWe" [ngClass]="isTabDark()" class="option nav-subtitle">
+          <li><a routerLink="/our-council" routerLinkActive="active">Our council</a></li>
+          <li><a routerLink="/committees" routerLinkActive="active">Committees</a></li>
+          <li><a routerLink="/our-branch-network" routerLinkActive="active">Our branch network</a></li>
+          <li><a routerLink="/our-members" routerLinkActive="active">Our members</a></li>
+        </ul>
+      </li>
+
+      <li [ngClass]="isTabDark()" class="dropdown hover-underline nav-title">
+        <a routerLink="/from-the-president" routerLinkActive="active"><span>From the President</span></a>
+      </li>
+
+      <li [ngClass]="isTabDark()" class="dropdown hover-underline nav-title">
+        <a routerLink="/from-the-ceo" routerLinkActive="active"><span>From the CEO</span></a>
+      </li>
+
+      <li (click)="toggleOurYear()" [ngClass]="isTabDark()" class="dropdown hover-underline nav-title"><span class="down-arrow">Our Year</span>
+        <ul *ngIf="ShowOurYear" [ngClass]="isTabDark()" class="option nav-subtitle">
+          <li><a routerLink="/snapshot-of-our-year" routerLinkActive="active">Snapshot of our year</a></li>
+          <li><a routerLink="/thought-leadership" routerLinkActive="active">Thought-leadership and influence</a></li>
+          <li><a routerLink="/raising-standards" routerLinkActive="active">Raising standards</a></li>
+          <li><a routerLink="/inspire-and-equip" routerLinkActive="active">Inspire and equip people</a></li>
+          <li><a routerLink="/build-engagement" routerLinkActive="active">Build engagement across the governance network</a></li>
+          <li><a routerLink="/governance-focus" routerLinkActive="active">IoD's corporate governance focus</a></li>
+          <li><a routerLink="/core-enablers" routerLinkActive="active">Core enablers</a></li>
+        </ul>
+      </li>
+
+      <li (click)="toggleShowFaces()" [ngClass]="isTabDark()" class="dropdown hover-underline nav-title"><span class="down-arrow">Faces of Governance</span>
+        <ul *ngIf="ShowFaces" [ngClass]="isTabDark()" class="option nav-subtitle">
+          <li><a routerLink="/faces-of-governance/simon-berry" routerLinkActive="active">Simon Berry</a></li>
+          <li><a routerLink="/faces-of-governance/warwick-tauwhare-george" routerLinkActive="active">Warwick Tauwhare-George</a></li>
+          <li><a routerLink="/faces-of-governance/laurissa-cooney" routerLinkActive="active">Laurissa Cooney</a></li>
+          <li><a routerLink="/faces-of-governance/michele-frey" routerLinkActive="active">Michele Frey</a></li>
+          <li><a routerLink="/faces-of-governance/breccan-mcleod-lundy" routerLinkActive="active">Breccan McLeod-Lundy</a></li>
+          <li><a routerLink="/faces-of-governance/mena-antonio" routerLinkActive="active">Mena Antonio</a></li>
+        </ul>
+      </li>
+
+      <li [ngClass]="isTabDark()" class="dropdown hover-underline nav-title">
+        <a routerLink="/#" routerLinkActive="active" ><span>Download <br *ngIf="isDesktop()">financials</span></a>
+      </li>
+    </ul>
+
   </div>
 </nav>
 

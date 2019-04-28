@@ -9,6 +9,10 @@ import { Router, Event, NavigationStart } from '@angular/router';
 export class NavbarComponent implements OnInit {
   isMenuExpanded: boolean = false;
 
+  ShowWhoAreWe = false;
+  ShowOurYear = false;
+  ShowFaces = false;
+
   constructor(private router: Router) {
     router.events.subscribe( (event: Event) => {
       if (event instanceof NavigationStart) {
@@ -36,6 +40,27 @@ export class NavbarComponent implements OnInit {
 
   toggleMenu() {
     this.isMenuExpanded = !this.isMenuExpanded
+  }
+
+  isTabDark() {
+    return window.location.pathname === '/home' ? 'darkTab' : 'lightTab'
+  }
+
+
+  toggleWhoAreWe() {
+    this.ShowWhoAreWe = !this.ShowWhoAreWe;
+  }
+
+  toggleOurYear() {
+    this.ShowOurYear = !this.ShowOurYear;
+  }
+
+  toggleShowFaces() {
+    this.ShowFaces = !this.ShowFaces;
+  }
+
+  isDesktop() {
+    return screen.width > 768;
   }
 
 }

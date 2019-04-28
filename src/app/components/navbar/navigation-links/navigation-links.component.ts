@@ -13,6 +13,7 @@ export class NavigationLinksComponent implements OnInit {
   ShowOurYear = false;
   ShowFaces = false;
 
+
   ngOnInit() {
   }
 
@@ -30,5 +31,9 @@ export class NavigationLinksComponent implements OnInit {
 
   toggleShowFaces() {
     this.ShowFaces = !this.ShowFaces;
+  }
+
+  isDesktop() {
+    return screen.width > 768;
   }
 }
