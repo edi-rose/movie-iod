@@ -1,6 +1,6 @@
 <ul class="navbar-nav justify-content-between">
-  <li [ngClass]="isTabDark()" class="dropdown hover-underline nav-title"><span class="down-arrow">Who We Are</span>
-    <ul [ngClass]="isTabDark()" class="option nav-subtitle">
+  <li (click)="toggleWhoAreWe()" [ngClass]="isTabDark()" class="dropdown hover-underline nav-title"><span class="down-arrow">Who We Are</span>
+    <ul *ngIf="ShowWhoAreWe" [ngClass]="isTabDark()" class="option nav-subtitle">
       <li><a routerLink="/our-council" routerLinkActive="active">Our council</a></li>
       <li><a routerLink="/committees" routerLinkActive="active">Committees</a></li>
       <li><a routerLink="/our-branch-network" routerLinkActive="active">Our branch network</a></li>
@@ -16,8 +16,8 @@
     <a routerLink="/from-the-ceo" routerLinkActive="active"><span>From the CEO</span></a>
   </li>
 
-  <li [ngClass]="isTabDark()" class="dropdown hover-underline nav-title"><span class="down-arrow">Our Year</span>
-    <ul [ngClass]="isTabDark()" class="option nav-subtitle">
+  <li (click)="toggleOurYear()" [ngClass]="isTabDark()" class="dropdown hover-underline nav-title"><span class="down-arrow">Our Year</span>
+    <ul *ngIf="ShowOurYear" [ngClass]="isTabDark()" class="option nav-subtitle">
       <li><a routerLink="/snapshot-of-our-year" routerLinkActive="active">Snapshot of our year</a></li>
       <li><a routerLink="/thought-leadership" routerLinkActive="active">Thought-leadership and influence</a></li>
       <li><a routerLink="/raising-standards" routerLinkActive="active">Raising standards</a></li>
@@ -28,8 +28,8 @@
     </ul>
   </li>
 
-  <li [ngClass]="isTabDark()" class="dropdown hover-underline nav-title"><span class="down-arrow">Faces of Governance</span>
-    <ul [ngClass]="isTabDark()" class="option nav-subtitle">
+  <li (click)="toggleShowFaces()" [ngClass]="isTabDark()" class="dropdown hover-underline nav-title"><span class="down-arrow">Faces of Governance</span>
+    <ul *ngIf="ShowFaces" [ngClass]="isTabDark()" class="option nav-subtitle">
       <li><a routerLink="/faces-of-governance/simon-berry" routerLinkActive="active">Simon Berry</a></li>
       <li><a routerLink="/faces-of-governance/warwick-tauwhare-george" routerLinkActive="active">Warwick Tauwhare-George</a></li>
       <li><a routerLink="/faces-of-governance/laurissa-cooney" routerLinkActive="active">Laurissa Cooney</a></li>
