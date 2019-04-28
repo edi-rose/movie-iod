@@ -35,13 +35,25 @@ h3 {
     padding: $spacer-sm;
     align-items: center;
     text-align: left;
-    height: 100%;
+    min-height: 100%;
+    flex-wrap: wrap;
+
+    .header-para {
+
+      @media only screen and (max-width: 430px) {
+        margin-left: 20%;
+        padding-bottom:40%;
+      }
+    }
 
     .header-number {
       display: flex;
       align-items: center;
       justify-content: center;
       line-height: 0.9;
+      @media only screen and (max-width: 430px) {
+        padding-left: 55%;
+      }
 
       .dollar {
         vertical-align: top;
