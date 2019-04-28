@@ -60,3 +60,95 @@ button {
   font-size: $font-size-large;
   font-family: 'IodSansBold';
 }
+
+:host {
+  margin-left: auto;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+
+  &.option {
+    padding-left: 0;
+  }
+}
+
+.dropdown {
+  float: right;
+  min-width: 130px;
+
+  @media only screen and (min-width: 768px) {
+    padding-top: $spacer-md;
+
+    &:hover {
+      background-color: $brand-grey-dark;
+    }
+  }
+}
+
+.option {
+  z-index: 3;
+  @media only screen and (min-width: 768px) {
+    color: $brand-blue;
+    position: absolute;
+    margin-top: 4px;
+    width: 100%;
+    right: 0;
+    background-color: $brand-grey-dark;
+  }
+}
+
+.dropdown:hover .option {
+  display: block;
+}
+
+li {
+  padding: 10px;
+  padding-left: 0px;
+  flex-basis: 0;
+  @media only screen and (min-width: 768px) {
+    text-align: center;
+    padding-left: 10px;
+  }
+
+  span {
+    padding-left: $spacer-md;
+    @media only screen and (min-width: 768px) {
+      padding-left: 0;
+    }
+  }
+
+  li {
+    padding-left: $spacer-lg;
+    @media only screen and (min-width: 768px) {
+      padding-left: 10px;
+    }
+  }
+}
+
+.down-arrow::after {
+  content:'';
+  display: inline-block;
+  background-image: url('/../../../assets/1_homepage/homepage-triangle.svg');
+  width: 9px;
+  height: 9px;
+  background-repeat: no-repeat;
+  margin-left: 5px;
+  transform: rotate(180deg);
+
+  @media only screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.darkTab.dropdown:hover {
+  background-color: $brand-blue-dark;
+}
+
+.darkTab.option {
+  color: white;
+  background-color: $brand-blue-dark;
+}

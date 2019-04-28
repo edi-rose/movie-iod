@@ -35,32 +35,35 @@ export class SnapshotOfOurYearComponent implements OnInit {
     }
   ];
 
-  raisingStandardsStats = [
+  raisingStandardsStatsFirstRow = [
     {
-      col: 'col-md-3',
-      blockSize: 'onextwo',
+      col: 'col-md-6 h-80',
+      blockSize: 'twoxone',
       statNumber: 173,
       statText: 'new Chartered Members',
       statChange: '(121 in 2017)',
       description: 'We are committed to professionalising governance and in 2018 we continued to see growth of our Chartered Membership pathway.'
     },
     {
-      col: 'col-md-3',
-      blockSize: 'onextwo',
+      col: 'col-md-6 h-80',
+      blockSize: 'twoxone',
       statNumber: 68,
       statText: 'Boardwide Membership',
       statChange: '(53 in 2017)',
       description: 'We encourage organisations to demonstrate their commitment to governance best practice by becoming BoardWide members.'
-    },
+    }
+    ]
+
+    raisingStandardsStatsSecondRow = [
     {
-      col: 'col-md-6',
-      blockSize: 'twoxone h-60',
+      col: 'col-md-6 h-80',
+      blockSize: 'twoxone',
       statNumber: 3,
       statTextTwo: 'webcasts accessed by',
       secondStatNumber: '1,618',
       statText:'people',
-      statChange: '(0 in 2017)',
-      description: 'We developed a series of webcasts based around the three "What Matters" themes: Stakeholder Engagement, Culture and Ethics, and A World of Data.'
+      statChange: '(new initiative)',
+      description: 'We developed a series of webcasts based around the three 𝘞𝘩𝘢𝘵 𝘔𝘢𝘵𝘵𝘦𝘳𝘴 themes: Stakeholder Engagement, Culture and Ethics, and A World of Data.'
     }
   ];
 
@@ -120,14 +123,6 @@ export class SnapshotOfOurYearComponent implements OnInit {
       statText: 'assignments for DirectorSearch',
       statUp: 'statUp',
       description: '(23 in 2017)'
-    },
-    {
-      col: 'col-md-6',
-      blockSize: 'twoxone',
-      statNumber: '1,306',
-      statText: 'attendees at our annual leadership conference ',
-      statUp: 'statUp',
-      description: '(new measure since 2017)'
     },
     {
       col: 'col-md-3',
