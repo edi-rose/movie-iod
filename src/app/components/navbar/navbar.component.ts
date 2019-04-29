@@ -39,6 +39,9 @@ export class NavbarComponent implements OnInit {
   }
 
   toggleMenu() {
+    this.ShowFaces = false;
+    this.ShowOurYear = false;
+    this.ShowWhoAreWe = false;
     this.isMenuExpanded = !this.isMenuExpanded
   }
 
