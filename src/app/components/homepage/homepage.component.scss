@@ -16,6 +16,9 @@ h1:after {
   border-top: 1px solid white;
   vertical-align: middle;
   margin: 0 20px 0 20px;
+  @media only screen and (max-width: 560px) {
+   display:none;
+  }
 }
 
 h2 {
