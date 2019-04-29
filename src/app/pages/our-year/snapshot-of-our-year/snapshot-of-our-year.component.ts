@@ -117,8 +117,8 @@ export class SnapshotOfOurYearComponent implements OnInit {
   ]
     buildEngagementStatsSecondRow = [
     {
-      col: 'col-md-3',
-      blockSize: 'onexone',
+      col: 'col-md-6 h-80',
+      blockSize: 'twoxone',
       statNumber: 26,
       statText: 'assignments for DirectorSearch',
       statUp: 'statUp',
