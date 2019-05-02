@@ -1,1 +1,36 @@
 
+.quote-author {
+  font-family: 'IodSansMed', sans-serif;
+  font-size: 10px;
+}
+
+.faces-of-governance-details {
+  display: flex;
+  flex-direction: row;
+
+  @media only screen and (max-width: 600px) {
+    flex-direction: column
+  }
+}
+
+.faces-of-governance-quote-box {
+  width: 50%;
+  padding: 10px;
+  @media only screen and (max-width: 600px) {
+    width: 100%;
+  }
+}
+
+.faces-of-governance-description {
+  width: 50%;
+  padding: 0 0 0 10px;
+  @media only screen and (max-width: 600px) {
+    padding: 10px 0 0 0;
+    width: 100%;
+  }
+}
+
+.col-view {
+  flex-direction: column;
+  background-color: black
+}
