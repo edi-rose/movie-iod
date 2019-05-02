@@ -6,13 +6,34 @@
 
 .map {
   background-color: $brand-blue;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position-x: right;
-  height: 1000px;
-
-  @media only screen and (min-width: 600px) {
+  width: 100%;
+  overflow: hidden;
+  @media only screen and (min-width: 601px) {
     background-image: url('/../assets/3_Our branch network/NZ-branch-map.png');
+    height: 1000px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  @media only screen and (max-width: 600px) {
+    background-image: url('/../assets/3_Our branch network/NZ-branch-map.png');
+    height: 700px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 500px;
+    padding-right: 200px;
+    background-position-y: center
+  }
+  @media only screen and (max-width: 400px) {
+    background-image: url('/../assets/3_Our branch network/NZ-branch-map.png');
+    height: 200px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 600px;
+    padding-right: 140px;
+    background-position-y: center
   }
 }
 
@@ -28,11 +49,6 @@
   }
 }
 
-img {
-  display: none;
-
-  @media only screen and (max-width: 600px) {
-    display: inline-block;
-    max-height: 615px;
-  }
+.container {
+  height: 100%
 }
