@@ -59,9 +59,7 @@ export class SnapshotOfOurYearComponent implements OnInit {
       col: 'col-md-6 h-80',
       blockSize: 'twoxone',
       statNumber: 3,
-      statTextTwo: 'webcasts accessed by',
-      secondStatNumber: '1,618',
-      statText:'people',
+      statText:'webcasts accessed by 1,618 people',
       statChange: '(new initiative)',
       description: 'We developed a series of webcasts based around the three 𝘞𝘩𝘢𝘵 𝘔𝘢𝘵𝘵𝘦𝘳𝘴 themes: Stakeholder Engagement, Culture and Ethics, and A World of Data.'
     }
