@@ -10,6 +10,24 @@
 
 .hero-box-image {
   background-image: url('/../../../assets/9_raising standards/Raising-standards-hero.png');
+  height: 480px;
+
+  @media only screen and (max-width: 600px) {
+  height: auto;
+  }
+}
+
+.lone-text {
+  @media only screen and (max-width: 600px) {
+    margin-left: 50% !important;
+  }
+}
+
+.raising-head-quote {
+   padding-bottom:30px;
+   @media only screen and (max-width: 600px) {
+   font-size:1.3em;
+   }
 }
 
 img {
@@ -20,7 +38,7 @@ img {
   padding-left: $spacer-sm;
   columns: 2;
 
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 770px) {
     columns: 1;
   }
 }
@@ -55,14 +73,14 @@ img {
 
 .para-membership {
   padding: 0;
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 770px) {
     padding-right: $spacer-sm;
   }
 }
 
 .para-maori {
   padding: 0;
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 770px) {
     padding-left: $spacer-sm;
   }
 }
@@ -75,7 +93,7 @@ img {
   padding-top: $spacer-x-lg !important;
   margin-bottom: $spacer-sm;
 
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 770px) {
     background-size: cover;
   }
 
@@ -84,7 +102,7 @@ img {
     padding-top: 0 !important;
     background-color: $brand-blue;
 
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 770px) {
       background-color: transparent;
     }
   }
@@ -96,7 +114,7 @@ img {
       columns: 2;
     }
 
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 770px) {
       columns: 3;
     }
   }
