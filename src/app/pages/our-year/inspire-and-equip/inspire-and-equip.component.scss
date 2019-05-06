@@ -10,6 +10,25 @@
 
 .hero-box-image {
   background-image: url('/../../../assets/10_Inspire and Equip/Inspire-hero.png');
+  height: 480px;
+
+  @media only screen and (max-width: 600px) {
+  height: auto;
+  }
+}
+
+.inspire-head-quote {
+   padding-bottom:30px;
+   @media only screen and (max-width: 600px) {
+   font-size:1.3em;
+   }
+}
+
+.lone-text {
+  @media only screen and (max-width: 600px) {
+    // margin to center on mobile
+    margin-left: 50% !important;
+  }
 }
 
 .mentee-list-box {
@@ -24,5 +43,31 @@
 
   ul {
     columns: 2;
+  }
+}
+
+.inspire-details {
+  display: flex;
+  flex-direction: row;
+
+  @media only screen and (max-width: 600px) {
+    flex-direction: column
+  }
+}
+
+.inspire-blue-box {
+  width: 50%;
+  padding: 10px;
+  @media only screen and (max-width: 600px) {
+    width: 100%;
+  }
+}
+
+.inspire-quote {
+  width: 50%;
+  padding: 0 0 0 10px;
+  @media only screen and (max-width: 600px) {
+    padding: 10px 0 0 0;
+    width: 100%;
   }
 }

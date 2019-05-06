@@ -8,7 +8,26 @@
 
 .hero-box-image {
   background-image: url('/../../../assets/8_Thought leadership/Thought-leadership-hero.png');
+  height: 480px;
+
+  @media only screen and (max-width: 600px) {
+  height: auto;
+  }
 }
+
+.lone-text {
+  @media only screen and (max-width: 600px) {
+    // make quote centered on mobile
+    margin-left: 48% !important;
+    }
+}
+
+.thought-head-quote {
+   padding-bottom:30px;
+   @media only screen and (max-width: 600px) {
+   font-size:1.3em;
+   }
+ }
 
 img {
   max-width: 325px;

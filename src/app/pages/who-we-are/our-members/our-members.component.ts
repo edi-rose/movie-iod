@@ -10,9 +10,9 @@ export class OurMembersComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    setTimeout(function(){
-        document.getElementById("odometer").innerHTML = '9071';
-    }, 1000);
+    // setTimeout(function(){
+    //     document.getElementById("odometer").innerHTML = '9071';
+    // }, 1000);
   }
 
 }

@@ -13,7 +13,25 @@
   }
 }
 
+.lone-text {
+  @media only screen and (max-width: 600px) {
+    // margin to center on mobile
+    margin-left: 50% !important;
+  }
+}
 
 .hero-box-image {
   background-image: url('/../../../assets/11_Build engagement/build-hero.png');
-}
+  height: 480px;
+
+  @media only screen and (max-width: 600px) {
+  height: auto;
+  }
+  }
+
+  .build-head-quote {
+   padding-bottom:30px;
+   @media only screen and (max-width: 600px) {
+   font-size:1.3em;
+   }
+  }
