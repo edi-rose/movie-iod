@@ -34,6 +34,6 @@ export class NavigationLinksComponent implements OnInit {
   }
 
   isDesktop() {
-    return screen.width > 768;
+    return screen.width > 770;
   }
 }

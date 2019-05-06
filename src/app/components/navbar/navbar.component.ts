@@ -7,7 +7,7 @@ import { Router, Event, NavigationStart } from '@angular/router';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
-  isMenuExpanded: boolean = false;
+  isMenuExpanded = false;
 
   ShowWhoAreWe = false;
   ShowOurYear = false;
@@ -33,7 +33,7 @@ export class NavbarComponent implements OnInit {
       return navbarClass = 'homepageNavBar'
     } else if (url === '/our-branch-network') {
       return navbarClass = 'bluePageNavBar'
-    } else if (screenSize > 768) {
+    } else if (screenSize > 770) {
       return navbarClass = 'desktopNavBar'
     }
   }
@@ -42,7 +42,7 @@ export class NavbarComponent implements OnInit {
     this.ShowFaces = false;
     this.ShowOurYear = false;
     this.ShowWhoAreWe = false;
-    this.isMenuExpanded = !this.isMenuExpanded
+    this.isMenuExpanded = !this.isMenuExpanded;
   }
 
   isTabDark() {
@@ -52,18 +52,24 @@ export class NavbarComponent implements OnInit {
 
   toggleWhoAreWe() {
     this.ShowWhoAreWe = !this.ShowWhoAreWe;
+    this.ShowFaces = false;
+    this.ShowOurYear = false;
   }
 
   toggleOurYear() {
     this.ShowOurYear = !this.ShowOurYear;
+    this.ShowFaces = false;
+    this.ShowWhoAreWe = false;
   }
 
   toggleShowFaces() {
     this.ShowFaces = !this.ShowFaces;
+    this.ShowOurYear = false;
+    this.ShowWhoAreWe = false;
   }
 
   isDesktop() {
-    return screen.width > 768;
+    return screen.width > 770;
   }
 
 }

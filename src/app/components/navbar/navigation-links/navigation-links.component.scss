@@ -19,7 +19,7 @@ ul {
   float: right;
   min-width: 130px;
 
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 770px) {
     padding-top: $spacer-md;
 
     &:hover {
@@ -31,7 +31,7 @@ ul {
 .option {
   display:none;
   z-index: 3;
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 770px) {
     color: $brand-blue;
     position: absolute;
     margin-top: 4px;
@@ -49,21 +49,21 @@ li {
   padding: 10px;
   padding-left: 0px;
   flex-basis: 0;
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 770px) {
     text-align: center;
     padding-left: 10px;
   }
 
   span {
     padding-left: $spacer-md;
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 770px) {
       padding-left: 0;
     }
   }
 
   li {
     padding-left: $spacer-lg;
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 770px) {
       padding-left: 10px;
     }
   }
@@ -79,7 +79,7 @@ li {
   margin-left: 5px;
   transform: rotate(180deg);
 
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 770px) {
     display: none;
   }
 }
