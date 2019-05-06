@@ -69,7 +69,10 @@ export class NavbarComponent implements OnInit {
   }
 
   isDesktop() {
-    return screen.width > 770;
+    if (screen.width > 770) {
+      return true;
+    }
+    return false;
   }
 
 }

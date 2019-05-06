@@ -51,7 +51,7 @@
   </div>
 </nav>
 
-<nav [ngClass]="getNavBarClass()" class="navbar navbar-expand-md">
+<nav *ngIf="isDesktop()" [ngClass]="getNavBarClass()" class="navbar navbar-expand-md">
   <div class="collapse navbar-collapse" id="navbarNav">
     <app-navigation-links></app-navigation-links>
   </div>
